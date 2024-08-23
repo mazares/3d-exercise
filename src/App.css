@@ -1,0 +1,43 @@
+.App {
+    display: grid;
+    height: 100dvh;
+    width: 100dvw;
+    justify-content: center;
+    background-color: #333;
+    color: #ddd;
+    position: relative;
+}
+
+.MatrixCanvas {
+    border: 1px solid red;
+    background-color: red;
+    position: absolute;
+    /* height: 100dvh;
+    width: 100dvw;
+    position: absolute; */
+}
+
+.header,
+.content,
+.footer {
+    display: grid;
+    width: 90dvw;
+    border: 1px solid red;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header {
+    align-self: flex-start;
+    height: 10dvh;
+}
+
+.content {
+    align-self: center;
+    height: 80dvh;
+}
+
+.footer {
+    align-self: flex-end;
+    height: 5dvh;
+}
